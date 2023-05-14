@@ -110,6 +110,9 @@ a{
     width:33%;
     display:inline-block;
 }
+.painting_column_portrait:hover{
+    width:35%;
+}
 .painting_portrait{
     width:100%;
     display:inline-block;
