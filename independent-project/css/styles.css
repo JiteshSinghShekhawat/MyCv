@@ -114,6 +114,11 @@ a{
 }
 .painting_column_portrait:hover{
     width:35%;
+    .prize{
+        border:2px solid rgb(136,135,135);
+        padding:1px 7px;
+        border-radius:8px;
+    }
 }
 .painting_portrait{
     width:100%;
