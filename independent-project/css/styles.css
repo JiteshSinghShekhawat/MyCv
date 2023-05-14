@@ -1,6 +1,8 @@
 body{ 
     height:200%;
     margin:0;
+    padding:0;
+    border:0; 
     text-align:center;
     font-family: 'Merriweather', serif;
 }
@@ -127,3 +129,54 @@ a{
     padding-bottom:0;  
     margin-left:80px;
 } 
+.prize{
+    display:inline-block;
+    color:rgb(136, 135, 135);
+}
+.painting_column_landscape{
+    width:44%;
+    display:inline-block;
+}
+.painting_landscape{
+    width:100%;
+    box-shadow:6px 6px 12px 1px black;
+    border-radius:8px;
+}
+.space_right{
+    margin-right:20px;
+    margin-top:40px;
+}
+.space_left{
+    margin-left:20px;
+    margin-top:40px;
+}
+.painting_column_landscape:hover{
+    width:47%;
+    .prize{
+        border:2px solid rgb(136,135,135);
+        padding:1px 7px;
+        border-radius:8px;
+    }
+}
+.bottom-container{
+    color:white;
+    padding:50px 0px ;
+    margin:0;
+    margin-top:50px;
+    border:0;
+    background-color:rgb(136, 135, 135);
+}
+.footer-link{
+    color:white;
+    text-decoration:none;
+    font-weight:900;
+}
+.footer-link:hover{
+    border:2px solid white;
+    padding:8px;
+    border-radius:8px;
+}
+.copyright{
+    font-weight:900;
+    color:white;
+}
