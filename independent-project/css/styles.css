@@ -6,6 +6,10 @@ body{
     text-align:center;
     font-family: 'Merriweather', serif;
 }
+.parent{
+    background-color:white;
+    padding-bottom:80px;
+}
 .nav_block{
     margin:0 60px;
     height:80vh;
@@ -113,11 +117,12 @@ a{
     display:inline-block;
 }
 .painting_column_portrait:hover{
-    width:35%;
+    scale: 115% 115%;/* i could have change width but that would have effected other content also ;*/
     .prize{
         border:2px solid rgb(136,135,135);
         padding:1px 7px;
         border-radius:8px;
+        
     }
 }
 .painting_portrait{
@@ -156,7 +161,7 @@ a{
     margin-top:40px;
 }
 .painting_column_landscape:hover{
-    width:47%;
+    scale: 110% 115%;/* i could have change width but that would have effected other content also ;*/
     .prize{
         border:2px solid rgb(136,135,135);
         padding:1px 7px;
@@ -166,9 +171,8 @@ a{
 .bottom-container{
     color:white;
     padding:50px 0px ;
-    padding-bottom:85px;
     margin:0;
-    margin-top:50px;
+    margin-top:400px;
     border:0;
     background-color:rgb(136, 135, 135);
 }
@@ -185,4 +189,36 @@ a{
 .copyright{
     font-weight:900;
     color:white;
+}
+.background-image{
+    position:fixed;
+    height:100vh;
+    width:100vw;
+    top:0;
+    left:0;
+    z-index:-1;
+}
+.background-img{
+    width:100%;
+    height:100%;
+}
+.team{
+    color:white;
+    font-weight:900;
+    margin:100px 0;
+    font-size:20px;
+}
+.team_member{
+    margin-top:50px;
+    padding:20px;
+    font-size:16px;
+    display:inline-block;
+}
+.team_member:hover{
+    .team{
+        text-decoration:underline solid yellowgreen 2px;
+    }
+    border:4px solid yellowgreen;
+    border-radius:10px;
+    scale:130% 110%;
 }
