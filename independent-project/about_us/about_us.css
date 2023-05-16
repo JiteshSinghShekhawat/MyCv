@@ -47,6 +47,7 @@ hr{
     padding:0 28%;
 }
 .footer-line{
+    font-size:24px;
     color:black;
     font-weight:bold;
     text-decoration:underline 3px;
