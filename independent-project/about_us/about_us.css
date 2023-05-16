@@ -11,10 +11,12 @@ h1{
     font-size:6rem;
     color:#66BFBF;
 }
-h3{
-    font-weight:900;
+h3{ 
+    word-spacing:200%;
+    letter-spacing:120%;
+    font-family:cursive,serif;
+    line-height:150%;
     color:#11999E;
-    font-family: 'Montserrat', sans-serif;
 }
 p{
     font-weight:900;
@@ -32,8 +34,8 @@ hr{
     border-style:dotted none none none;
     width:4%;
     color:grey;
-    margin-top:100px;
-    margin-bottom:100px;
+    margin-top:50px;
+    margin-bottom:50px;
 }
 .bottom-container{
     background-color:#66BFBF;
@@ -42,7 +44,7 @@ hr{
     line-height:10;
 }
 .middle-container{
-    padding:0 30%;
+    padding:0 28%;
 }
 .footer-line{
     color:black;
@@ -54,4 +56,16 @@ hr{
 }
 .stop{
     text-decoration:none;
+}
+.middle_2{
+    padding:6px;
+    border:3px dotted black;
+}
+.middle_3{
+    border:3px solid black;
+    padding:10px;
+}
+.middle_4{
+    border:3px solid black;
+    padding:6px;
 }
