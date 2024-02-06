@@ -1,0 +1,117 @@
+@font-face {
+    font-family: 'CustomFont';
+    src: url('FONT/Tanker-Regular.otf') format('woff2'),
+    url('FONT/Tanker-Regular.otf') format('woff'),
+    url('FONT/Tanker-Regular.otf') format('truetype');
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal;
+}
+::selection{
+    background:black;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #702c63;
+    font-family: 'Barlow Condensed', sans-serif;
+    color:white;
+    margin:0 ;
+    height:300vh;
+}
+.nav-container{
+    background-color: #602055;
+    position:fixed;
+    width: 100%;
+    padding:1.25rem;
+    z-index:100 ;
+}
+.nav-bar{
+    display:flex ;
+}
+.nav1{
+    flex : 1 ;
+}
+.nav2{
+    flex: 6; 
+    font-size:1.5rem;
+    font-weight: 600;
+    justify-content: center;
+    gap: 6rem;
+}
+.nav3{
+    flex : 1 ;
+    justify-content: right;
+}
+.nav{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    font-size:2rem;
+    font-family:'CustomFont',sans-serif;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+}
+.hov{
+    color:white ;
+    text-decoration: none;
+}
+.hov:hover{
+    text-decoration: underline solid 3px;
+}
+.logo-hov{
+    color:white ;
+    text-decoration: none;
+}
+.logo-hov:hover{
+    font-size:2.25rem;
+    text-decoration:underline ; 
+    transition: all 0.5 ;
+}
+.first-inside{
+    margin:0 auto ;
+    width:50% ;
+    text-align:center;
+}
+.first-inside-1{
+    margin:40% 0 0 0  ;
+    display:inline-block;
+    font-size : 4rem;
+    font-weight:600 ;
+    font-style:'CustomFont' ;
+}
+.first-inside-2{
+    display:inline-block;
+    font-size : 9rem;
+    font-weight:600; 
+    font-style:'CustomFont' ;
+    line-height: 8rem;
+}
+.first-inside-3{
+    display:inline-block; 
+    font-size:2rem;
+    font-weight:600 ; 
+    font-style:600 ; 
+    margin-top:40px;
+}
+.second{
+    position:relative ;
+}
+.second-inside{
+    width:440px;
+    margin:200px auto;
+    overflow: hidden;
+    text-align:center;
+}
+
+.catchy{
+    position:absolute ;
+    color:white;
+    top:45% ; 
+    left:40% ;
+    z-index:2;
+    font-size:3rem; 
+    font-weight:600 ;
+}
