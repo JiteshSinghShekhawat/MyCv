@@ -109,8 +109,9 @@ body{
 .catchy{
     position:absolute ;
     color:white;
-    top:45% ; 
-    left:40% ;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     z-index:2;
     font-size:3rem; 
     font-weight:600 ;
