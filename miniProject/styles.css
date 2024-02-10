@@ -1,0 +1,218 @@
+@font-face {
+    font-family: 'CustomFont';
+    src: url('FONT/Tanker-Regular.otf') format('woff2'),
+    url('FONT/Tanker-Regular.otf') format('woff'),
+    url('FONT/Tanker-Regular.otf') format('truetype');
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal;
+}
+::selection{
+    background:black;
+}
+*{
+    box-sizing: border-box;
+}
+.finalContainer{
+    background-color: #702c63;
+}
+body{
+    background-color: white;
+    font-family: 'Barlow Condensed', sans-serif;
+    color:white;
+    margin:0 ;
+}
+.nav-container{
+    background-color: #602055;
+    position:fixed;
+    width: 100%;
+    padding:1.25rem;
+    z-index:100 ;   
+    margin-bottom:5rem;
+}
+.nav-bar{
+    display:flex ;
+}
+.nav1{
+    flex : 1 ;
+}
+.nav2{
+    flex: 6; 
+    font-size:1.5rem;
+    font-weight: 600;
+    justify-content: center;
+    gap: 6rem;
+}
+.nav3{
+    flex : 1 ;
+    justify-content: right;
+}
+.nav{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    font-size:2rem;
+    font-family:'CustomFont',sans-serif;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+}
+.hov{
+    color:white ;
+    text-decoration: none;
+}
+.hov:hover{
+    text-decoration: underline solid 3px;
+}
+.logo-hov{
+    color:white ;
+    text-decoration: none;
+}
+.logo-hov:hover{
+    font-size:2.25rem;
+    text-decoration:underline ; 
+    transition: all 0.5 ;
+}
+.first-inside{
+    margin:0 auto ;
+    width:50% ;
+    text-align:center;
+}
+.first-inside-1{
+    margin:40% 0 0 0  ;
+    display:inline-block;
+    font-size : 4rem;
+    font-weight:600 ;
+    font-style:'CustomFont' ;
+}
+.first-inside-2{
+    display:inline-block;
+    font-size : 9rem;
+    font-weight:600; 
+    font-style:'CustomFont' ;
+    line-height: 8rem;
+}
+.first-inside-3{
+    display:inline-block; 
+    font-size:2rem;
+    font-weight:600 ; 
+    font-style:600 ; 
+    margin-top:40px;
+}
+.second{
+    position:relative ;
+}
+.second-inside{
+    width:500px;
+    margin:200px auto;
+    overflow: hidden;
+    text-align:center;
+}
+
+.catchy{
+    position:absolute ;
+    color:white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index:2;
+    font-size:3rem; 
+    font-weight:600 ;
+}
+.flex-container{
+    display:flex ;
+    justify-content: center;
+}
+.grid-container{
+    max-width:900px; 
+    gap : 10 px;
+    display:grid ; 
+    grid-template-columns: 4fr  1fr 4fr;
+}
+.portrait{
+    width:100%;
+    display:inline-block;
+    box-shadow:6px 6px 12px 1px rgba(255, 255, 255, 0.377);
+    overflow:hidden ;
+    border-radius:20px;
+    object-fit:cover;
+    min-width:300px;
+}
+.col{
+    font-style:'CustomFont' ;
+    color:white ;
+    font-weight:800 ;
+}
+.space{
+    min-width:20px ;
+}
+.flex-cart{
+    margin-top:1rem;
+    display:flex ;
+    justify-content: space-evenly ;
+    margin-bottom:3rem;
+}
+.rate{
+    font-size:large ;
+}
+.flex-cart>button{
+    cursor:pointer ;
+    background-color: white;
+    color: #702c63 ;
+    font-weight:600 ;
+    letter-spacing:1px ;
+    padding:5px 8px;
+    border:0 ;
+    border-radius:5%;
+    box-shadow:6px 6px 8px 1px rgba(255, 255, 255, 0.377);
+}
+.flex-cart>button:hover{
+    text-decoration:underline ;
+}
+.landscape{
+    width:100%;
+    display:inline-block;
+    box-shadow:6px 6px 12px 1px rgba(255, 255, 255, 0.377);
+    overflow:hidden ;
+    border-radius:20px;
+    object-fit:cover;
+    min-width:300px;
+    aspect-ratio: 3/2;
+    max-height:300px;
+}
+.finalBackImg{
+    position:fixed;
+    width:100vw; 
+    height:100vh;
+    top:0 ; 
+    left:0 ;
+    z-index:-10 ;
+}
+.footer{
+    margin:0 ;
+    margin-top:400px; 
+    width:100% ; 
+    font-weight:400;
+    letter-spacing: 1px;
+    
+    padding:20px;
+    background-color: #520a47;
+    text-align: center;
+}
+.team-name{
+    display:inline-block;
+    min-width:400px;
+    border-radius:20px;
+    padding:10px;
+}
+.team-name:hover{
+    border:5px solid white ;
+    #teamName{
+        text-decoration:underline;
+        text-decoration-thickness:2px;
+    }
+}
+.footer-top:hover{
+    text-decoration:underline ; 
+    text-decoration-thickness:3px;
+}
